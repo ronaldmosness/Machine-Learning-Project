@@ -10,7 +10,7 @@ library(kernlab)  # for SVM model
 traindata <- read.table(file = "7406train.csv", sep = ",")
 dim(traindata)
 
-# Extract X1 and X2
+## Extract X1 and X2
 X1 <- traindata[, 1]
 X2 <- traindata[, 2]
 
